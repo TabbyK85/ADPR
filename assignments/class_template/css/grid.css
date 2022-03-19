@@ -35,7 +35,7 @@ img {
 
 /***** Layout *****/
 .container {
-    background: red;
+    background: white;
     width: min(95%, 75rem);
     margin: 0 auto;
     display: grid;
@@ -48,13 +48,13 @@ img {
 
 /* Desktop Layout */
 @media screen and (min-width: 40rem) {
-    .col-span-4 {
-        grid-column: span 4;
+    .col-span-6 {
+        grid-column: span 6;
         background-color: var(--primary-color);
     }
 
-    .col-span-12 {
-        grid-column: span 12;
+    .col-span-3 {
+        grid-column: span 3;
         background-color: var(--second-color);
     }
 
