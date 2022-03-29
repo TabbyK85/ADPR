@@ -63,6 +63,9 @@ a:hover {
 .container > * {
     grid-column: span 12;
 }
+.container-lg > * {
+    grid-column: span 8;
+}
 
 /****** Navigation Using Flexbox ******/
 nav{
