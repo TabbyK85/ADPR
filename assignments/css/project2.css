@@ -63,7 +63,7 @@ a:hover {
 .container > * {
     grid-column: span 12;
 }
-.container-lg > * {
+.container-feature> * {
     grid-column: span 8;
 }
 
@@ -137,7 +137,7 @@ nav a:hover {
     display: inline-block;
     position: relative;
     color: black;
-  }
+}
   
   .hover-underline-animation:after {
     content: '';
@@ -150,13 +150,13 @@ nav a:hover {
     background-color: black;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
-  }
+}
   
   .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
     background-color: #E81C22;
-  }
+}
 
 /* Desktop Layout*/
 @media screen and (min-width: 40rem) {
