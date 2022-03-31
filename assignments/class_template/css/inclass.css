@@ -72,7 +72,39 @@ img {
 .text-center {
     text-align: center;
 }
+.site-id-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-id h1{
+    margin: 0;
+}
 
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+nav li{
+    flex-grow: 1;
+}
+nav li a{
+    color: var(--neutral-grey);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 2rem 1rem;
+    transition: background-color .2s ease-in-out;
+}
+nav li a:hover {
+    color: var(--neutral-light);
+    background-color: var(--highlight-color);
+}
 
 /* Desktop Layout */
 @media screen and (min-width: 40rem) {
